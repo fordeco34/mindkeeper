@@ -9,16 +9,9 @@
 	
 	<body>
 		<div class="container">
-      <div class="header clearfix">
-        <nav>
-          <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active"><a href="#">Home</a></li>
-            <li role="presentation"><a href="#">Sobre</a></li>
-            <li role="presentation"><a href="#">Contato</a></li>
-          </ul>
-        </nav>
-        <h3 class="text-muted">MindKeeper</h3>
-      </div>
+      <?php
+        include 'common/menu.php';
+      ?>
 
       <div class="jumbotron">
         <h1>Bem Vindo!</h1>
@@ -38,8 +31,9 @@
 			    <label for="exampleInputPassword1">Password</label>
 			    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
 			  </div>
-			  <button type="button" class="btn btn-primary">Criar conta</button>
-			  <button type="submit" class="btn btn-success">Submit</button>
+			  <a role="button" class="btn btn-primary" href="criar_conta.php">Criar conta</a>
+        <a role="button" class="btn btn-success" href="ver_notas.php">Logar</a>
+			  <!-- <button type="submit" class="btn btn-success">Logar</button> -->
 			</form>
         </p>        
       </div>
@@ -69,16 +63,15 @@
         </div>
       </div>
 		-->
-      <footer class="footer">
-        <p>&copy; 2016 Company, Inc.</p>
-      </footer>
+      <?php
+        include 'common/footer.php';
+      ?>
 
     </div> <!-- /container -->
 
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
 	</body>
 
 </html>
