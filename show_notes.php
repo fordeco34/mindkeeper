@@ -5,7 +5,7 @@
 	<?php
 	include 'common/head.php';
 	?>
-</head>
+</head> 
 
 <body>
 	<div class="container">
@@ -40,8 +40,8 @@
 							<td>Lista</td>
 							<td>12/02/2016</td>
 							<td>
-								<a href="#">
-									<img src="images/trashcan.png" class="trashIcon">
+								<a href="#">									
+									<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
 								</a>
 							</td>
 						</tr>
@@ -55,7 +55,7 @@
 							<td>13/02/2016</td>
 							<td>
 								<a href="#">
-									<img src="images/trashcan.png" class="trashIcon">
+									<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
 								</a>
 							</td>
 						</tr>
@@ -66,8 +66,8 @@
 
 		<div class="row">
 			<div class="col-lg-12 text-right">
-				<a role="button" class="btn btn-primary" href="excluir_nota.php">Excluir nota</a>
-				<a role="button" class="btn btn-primary" href="incluir_nota.php">Incluir nota</a>				
+				<a role="button" class="btn btn-primary" href="delete_note.php">Excluir nota</a>
+				<a role="button" class="btn btn-primary" href="create_note.php">Incluir nota</a>				
 			</div>			
 
 		</div>
