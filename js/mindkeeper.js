@@ -51,3 +51,27 @@ const LIST_TYPE = 1;
 		}
 	}
 
+
+
+
+
+function submitRegisterUserForm(){
+	console.log("Submit");
+
+	var user = {
+		"teste": {
+			name: "Isan",
+			email: "ei",
+			password:"das"
+		}
+	};
+
+	$.post("service/API.php?func=registerUser", user, function(result){
+
+		console.log(result.status);
+		console.log(result.message);
+		console.log(result);
+	});
+
+}
+

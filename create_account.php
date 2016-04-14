@@ -5,6 +5,8 @@
   <?php
   include 'common/head.php';
   ?>
+
+
 </head>
 
 <body>
@@ -47,7 +49,7 @@
           </div>          
           <div class="form-group">
             <div class="col-sm-offset-2 col-sm-10">
-              <button type="submit" class="btn btn-primary">Cadastrar</button>
+              <button type="button" class="btn btn-primary" onClick="submitRegisterUserForm();">Cadastrar</button>
               <a type="button" href="index.php" class="btn btn-success">Voltar</a>
             </div>
           </div>
@@ -63,7 +65,7 @@
 
 
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-  <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  
 </body>
 </body>
 
